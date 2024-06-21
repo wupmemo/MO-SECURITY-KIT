@@ -92,6 +92,7 @@ The tools in this repository are organized into the following categories:
 ### Exploitation && Attack
 
 1. [PACU](https://github.com/RhinoSecurityLabs/pacu): Pacu is an open-source AWS exploitation framework for Cloud Pentesting.
+2. [RCLONE](https://rclone.org/): A Legitimate tool used to Access Cloud Storage for Most cloud providers BUT it is a good tool for Data Exfiltration.
    ...
 
 
