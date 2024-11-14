@@ -37,10 +37,11 @@ The tools in this repository are organized into the following categories:
 7. [S3 Recon](https://github.com/clarketm/s3recon): Amazon S3 bucket finder and crawler.
 8. [S3 Finder](https://github.com/magisterquis/s3finder): search using a wordlist or by monitoring the certstream network for domain names from certificate transparency logs.
 9. [Bucket Finder](https://github.com/mattweidner/bucket_finder): excellent ruby script that uses wordlists to recon public buckets.
-10. [S3 Open Bucket Finder](https://github.com/siddharth2395/s3-open-bucket-finder): excellent Python script that uses wordlists (common names) to recon public buckets.
+10. [S3 Open Bucket Finder](https://github.com/siddharth2395/s3-open-bucket-finder): This excellent Python script uses wordlists (common names) to recon public buckets.
 11. [Cloud Scrapper](https://github.com/jordanpotti/CloudScraper): Tool to enumerate targets in search of cloud resources. S3 Buckets, Azure Blobs, Digital Ocean Storage Space.
 12. [Cloud Enum](https://github.com/initstring/cloud_enum): Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
-13. [Recon Ng](https://github.com/lanmaster53/recon-ng):Open Source Intelligence gathering tool aimed at reducing the time spent harvesting information from websites.
+13. [Recon Ng](https://github.com/lanmaster53/recon-ng): Open Source Intelligence gathering tool to reduce the time spent harvesting information from websites.
+14. [AssetFinder](https://github.com/wupmemo/assetfinder): Find domains and subdomains potentially related to a given domain.
 
 
 
@@ -91,8 +92,15 @@ The tools in this repository are organized into the following categories:
    
 ### Exploitation && Attack
 
-1. [PACU](https://github.com/RhinoSecurityLabs/pacu): Pacu is an open-source AWS exploitation framework for Cloud Pentesting.
-2. [RCLONE](https://rclone.org/): A Legitimate tool used to Access Cloud Storage for Most cloud providers BUT it is a good tool for Data Exfiltration.
+1. [PACU](https://github.com/RhinoSecurityLabs/pacu): Anti-Phishing tool is a simple Python script tool that allows you to flood phishing websites with fake auto-generated email and passwords.
+2. [RCLONE](https://rclone.org/): A legitimate tool used to access cloud storage for most cloud providers, but it is also a good tool for data exfiltration.
+   ...
+
+
+### Defence (Blue Team) Tools
+
+1. [COUNTER PHISH]([https://github.com/RhinoSecurityLabs/pacu](https://github.com/wupmemo/Counter-Phishing-Tool)): Pacu is an open-source AWS exploitation framework for Cloud Pentesting.
+2. [RCLONE](https://rclone.org/): A legitimate tool used to access cloud storage for most cloud providers, but it is also a good tool for data exfiltration.
    ...
 
 
