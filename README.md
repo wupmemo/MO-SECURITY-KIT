@@ -18,10 +18,10 @@ With the increasing adoption of cloud services and infrastructure, security prof
 The tools in this repository are organized into the following categories:
 
 - **Recon and information gathering**: Tools for collecting information about the target before we start.
-- **Network Scanning and Enumeration**: Tools for discovering assets, services, and vulnerabilities within cloud networks.
+- **Network Scanning and Enumeration**: Tools for discovering cloud network assets, services, and vulnerabilities.
 - **Web Application Testing**: Tools for assessing the security of web applications deployed in cloud environments.
-- **Exploration and Situation awareness**: Tools that will help you discover the environment you are in once you can access/ hack your way in.
-- **Vulnerability Assessment and Pentesting**: Tools for identifying and managing vulnerabilities in cloud infrastructure and applications.
+Exploration and Situation Awareness: Tools that will help you discover your environment once you can access/ hack your way in.
+- **Vulnerability Assessment and Pentesting**: Tools for identifying and managing cloud infrastructure and applications vulnerabilities.
 - **Exploitation && Attack**: Frameworks and tools for exploiting vulnerabilities found during penetration tests and also used for attacking.
 - **Forensics and Incident Response**: Tools for investigating security incidents and performing digital forensics in cloud environments.
 
@@ -42,6 +42,7 @@ The tools in this repository are organized into the following categories:
 12. [Cloud Enum](https://github.com/initstring/cloud_enum): Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
 13. [Recon Ng](https://github.com/lanmaster53/recon-ng): Open Source Intelligence gathering tool to reduce the time spent harvesting information from websites.
 14. [AssetFinder](https://github.com/wupmemo/assetfinder): Find domains and subdomains potentially related to a given domain.
+15. [ParamSpider](https://github.com/devanshbatham/ParamSpider): Find URLs from Wayback achives. This tool can be very useful with FUFF
 
 
 
@@ -56,7 +57,7 @@ The tools in this repository are organized into the following categories:
 
 1. [sgCheckup](https://github.com/goldfiglabs/sgCheckup): sgCheckup - Check your Security Groups for Unexpected Open Ports & Generate nmap Output.
 2. [Ghost Buster](https://github.com/assetnote/ghostbuster): Ghostbuster iterates through all of your AWS Elastic IPs and Network Interface Public IPs and collects this data.
-3. [Bucket Hunter](https://github.com/samuelcardillo/bucket-hunter): Amazon AWS Open Files Scraper that uses passive DNS lookup on Amazon servers to find hostname of customer hosted in the cloud.
+3. [Bucket Hunter](https://github.com/samuelcardillo/bucket-hunter): Amazon AWS Open Files Scraper that uses passive DNS lookup on Amazon servers to find the hostname of the customer hosted in the cloud.
 
 ![image](https://github.com/wupmemo/Cloud-Security-Kit/assets/15247512/4223ebd1-9334-4d0f-abbe-44617407ff6f)
    ...
@@ -74,7 +75,7 @@ The tools in this repository are organized into the following categories:
 2. [MetaBadger](https://github.com/salesforce/metabadger): Discover and learn about Meta-Data on AWS before fixing and upgrading IMDS version.
 3. [CloudList](https://github.com/projectdiscovery/cloudlist): Cloudlist is a multi-cloud tool for getting Assets from Cloud Providers.
 4. [S3 Inspector](https://github.com/clario-tech/s3-inspector): Inspect for exposed/ public AWS S3 buckets.
-5. [Bucket Hunter](https://github.com/samuelcardillo/bucket-hunter): Amazon AWS Exposed Bucket Hunter - Security research
+5. [Bucket Hunter](https://github.com/samuelcardillo/bucket-hunter): Amazon AWS Exposed Bucket Hunter - Security Research Tool.
 
 
    ...
@@ -83,23 +84,17 @@ The tools in this repository are organized into the following categories:
 
 1. [Scout Suite](https://github.com/nccgroup/ScoutSuite): Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments.
 2. [Principal Mapper](https://github.com/nccgroup/PMapper): Identify risks in the configuration of AWS Identity and Access Management (IAM) for an AWS account or an AWS organization.
-3. [CodePipeline Poisoning Tester](https://github.com/AsierRF/CodePipeline-Poisoning-Tester): Python script and an AWS serverless infrastructure that will help verify whether AWS developers could potentially perform a privilege escalation attempt to retrieve secrets and data from the CI/CD pipeline and the production environment.
+3. [CodePipeline Poisoning Tester](https://github.com/AsierRF/CodePipeline-Poisoning-Tester): Python script and an AWS serverless infrastructure that will help retrieve secrets and data from the CI/CD pipeline.
 4. [Git Leaks](https://github.com/gitleaks/gitleaks): Gitleaks is a SAST tool for detecting and preventing hardcoded secrets like passwords, api keys, and tokens in git repos. We can use this tool for assessment.
 5. [RHINO LABS: AWS PENTESTING TOOLS](https://github.com/RhinoSecurityLabs/Security-Research/tree/master/tools/aws-pentest-tools): A collection of AWS pentesting tools for (s3, IAM & HoneyBot).
 6. [CloudFrunt](https://github.com/MindPointGroup/cloudfrunt): A tool for identifying misconfigured CloudFront domains.
 7. [Nuclei](https://github.com/projectdiscovery/nuclei): Fast and customisable vulnerability scanner based on simple YAML based DSL.
+8. [FUFF](https://github.com/ffuf/ffuf): An excellent tool for FUZZING URLs when we want to detect if site is XSS vulnerable.
    ...
    
 ### Exploitation && Attack
 
-1. [PACU](https://github.com/RhinoSecurityLabs/pacu): Anti-Phishing tool is a simple Python script tool that allows you to flood phishing websites with fake auto-generated email and passwords.
-2. [RCLONE](https://rclone.org/): A legitimate tool used to access cloud storage for most cloud providers, but it is also a good tool for data exfiltration.
-   ...
-
-
-### Defence (Blue Team) Tools
-
-1. [COUNTER PHISH]([https://github.com/RhinoSecurityLabs/pacu](https://github.com/wupmemo/Counter-Phishing-Tool)): Pacu is an open-source AWS exploitation framework for Cloud Pentesting.
+1. [PACU]([https://github.com/RhinoSecurityLabs/pacu](https://github.com/wupmemo/Counter-Phishing-Tool)): Pacu is an open-source AWS exploitation framework for Cloud Pentesting.
 2. [RCLONE](https://rclone.org/): A legitimate tool used to access cloud storage for most cloud providers, but it is also a good tool for data exfiltration.
    ...
 
