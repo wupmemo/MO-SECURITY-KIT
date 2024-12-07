@@ -67,6 +67,7 @@ Exploration and Situation Awareness: Tools that will help you discover your envi
 1. [GoTestWaf](https://github.com/wallarm/gotestwaf): Evaluate web application security solutions, such as API security proxies, Web Application Firewalls, IPS, API gateways, and others.
 2. [SecretFinder](https://github.com/m4ll0k/SecretFinder): SecretFinder is a python script based on LinkFinder, written to discover sensitive data like apikeys, accesstoken, authorizations, jwt,..etc in JavaScript files.
 3. [Amass](https://github.com/owasp-amass/amass): In-depth attack surface mapping and asset discovery.
+4. [Subzy](https://github.com/PentestPad/subzy): Subdomain takeover tool which works based on matching response fingerprints from can-i-take-over-xyz
    ...
 
 ### Exploration and Situational Awareness
