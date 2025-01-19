@@ -18,7 +18,7 @@ With the increasing adoption of cloud services and infrastructure, security prof
 The tools in this repository are organized into the following categories:
 
 - **Recon and information gathering**: Tools for collecting information about the target before we start.
-- **Network Scanning and Enumeration**: Tools for discovering cloud network assets, services, and vulnerabilities.
+- **Network Scanning and Website Enumeration**: Tools for discovering cloud network assets, services, and vulnerabilities.
 - **Web Application Testing**: Tools for assessing the security of web applications deployed in cloud environments.
 Exploration and Situation Awareness: Tools that will help you discover your environment once you can access/ hack your way in.
 - **Vulnerability Assessment and Pentesting**: Tools for identifying and managing cloud infrastructure and applications vulnerabilities.
@@ -30,34 +30,36 @@ Exploration and Situation Awareness: Tools that will help you discover your envi
 ### Recon and information gathering
 1. [KiteRunner](https://github.com/assetnote/kiterunner): Kiterunner is a tool that is capable of not only performing traditional content discovery at lightning-fast speeds but also brute-forcing routes/endpoints in modern applications.
 2. [Katana](https://github.com/projectdiscovery/katana): Fast And fully configurable web crawling.
-3. [GreyHat Warfare](http://buckets.grayhatwarfare.com/): Online tool that helps you find public S3 buckets.
-4. [AWS Bucket Dump](https://github.com/jordanpotti/AWSBucketDump): CommandLine tool that helps you enum S3 buckets.
-5. [Sand Caste](https://github.com/0xSearches/sandcastle): Python Script to enum S3 buckets.
-6. [Bucket Kicker](https://github.com/craighays/bucketkicker): Quickly enumerate AWS S3 buckets verify whether or not they exist and to look for loot.
-7. [S3 Recon](https://github.com/clarketm/s3recon): Amazon S3 bucket finder and crawler.
-8. [S3 Finder](https://github.com/magisterquis/s3finder): search using a wordlist or by monitoring the certstream network for domain names from certificate transparency logs.
-9. [Bucket Finder](https://github.com/mattweidner/bucket_finder): excellent ruby script that uses wordlists to recon public buckets.
-10. [S3 Open Bucket Finder](https://github.com/siddharth2395/s3-open-bucket-finder): This excellent Python script uses wordlists (common names) to recon public buckets.
-11. [Cloud Scrapper](https://github.com/jordanpotti/CloudScraper): Tool to enumerate targets in search of cloud resources. S3 Buckets, Azure Blobs, Digital Ocean Storage Space.
-12. [Cloud Enum](https://github.com/initstring/cloud_enum): Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
-13. [Recon Ng](https://github.com/lanmaster53/recon-ng): Open Source Intelligence gathering tool to reduce the time spent harvesting information from websites.
-14. [AssetFinder](https://github.com/wupmemo/assetfinder): Find domains and subdomains potentially related to a given domain.
-15. [ParamSpider](https://github.com/devanshbatham/ParamSpider): Find URLs from Wayback achives. This tool can be very useful with FUFF
+3. [S3 Recon](https://github.com/clarketm/s3recon): Amazon S3 bucket finder and crawler.
+4. [S3 Finder](https://github.com/magisterquis/s3finder): search using a wordlist or monitoring the certstream network for domain names from certificate transparency logs.
+5. [Bucket Finder](https://github.com/mattweidner/bucket_finder): This excellent ruby script uses wordlists to recon public buckets.
+6. [S3 Open Bucket Finder](https://github.com/siddharth2395/s3-open-bucket-finder): This excellent Python script uses wordlists (common names) to recon public buckets.
+7. [Cloud Scrapper](https://github.com/jordanpotti/CloudScraper ): This tool enumerates targets in search of cloud resources. S3 Buckets, Azure Blobs, Digital Ocean Storage Space.
+8. [Cloud Enum](https://github.com/initstring/cloud_enum): Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
+9. [Recon Ng](https://github.com/lanmaster53/recon-ng): Open Source Intelligence gathering tool to reduce the time spent harvesting information from websites.
+10. [AssetFinder](https://github.com/wupmemo/assetfinder): Find domains and subdomains potentially related to a given domain.
+11. [ParamSpider](https://github.com/devanshbatham/ParamSpider): Find URLs from Wayback achives. This tool can be very useful with FUFF
+12. [Enum Wayback with MSF](https://github.com/mubix/stuff/blob/master/metasploit/enum_wayback.rb)
+13. [WhatWaf](https://github.com/Ekultek/WhatWaf) WhatWaf is an advanced firewall detection that works by detecting a firewall on a web application and attempting to detect a bypass (or two) for said firewall, on the specified target.
 
 
-
-
-[Enum Wayback with MSF](https://github.com/mubix/stuff/blob/master/metasploit/enum_wayback.rb)
 
 ![image](https://github.com/wupmemo/Cloud-Security-Kit/assets/15247512/ce277746-9042-4fa4-a62b-762a9bf2fa2f)
 
     ...
 
-### Network Scanning and Enumeration
+### Network Scanning and Website Enumeration
 
 1. [sgCheckup](https://github.com/goldfiglabs/sgCheckup): sgCheckup - Check your Security Groups for Unexpected Open Ports & Generate nmap Output.
 2. [Ghost Buster](https://github.com/assetnote/ghostbuster): Ghostbuster iterates through all of your AWS Elastic IPs and Network Interface Public IPs and collects this data.
-3. [Bucket Hunter](https://github.com/samuelcardillo/bucket-hunter): Amazon AWS Open Files Scraper that uses passive DNS lookup on Amazon servers to find the hostname of the customer hosted in the cloud.
+3. [Bucket Hunter](https://github.com/samuelcardillo/bucket-hunter) is an Amazon AWS Open Files Scraper that uses passive DNS lookup on Amazon servers to find the customer's cloud-hosted hostname.
+4. [Discraper](git@github.com:Cillian-Collins/dirscraper.git): Dirscraper is an OSINT scanning tool that assists penetration testers in identifying hidden, or previously unknown, directories on a domain or subdomain.
+5. [GreyHat Warfare](http://buckets.grayhatwarfare.com/): Online tool that helps you find public S3 buckets.
+6. [AWS Bucket Dump](https://github.com/jordanpotti/AWSBucketDump): CommandLine tool that helps you enum S3 buckets.
+7. [Sand Caste](https://github.com/0xSearches/sandcastle): Python Script to enum S3 buckets.
+8. [Bucket Kicker](https://github.com/craighays/bucketkicker): Quickly enumerate AWS S3 buckets verify whether or not they exist and to look for loot.
+
+
 
 ![image](https://github.com/wupmemo/Cloud-Security-Kit/assets/15247512/4223ebd1-9334-4d0f-abbe-44617407ff6f)
    ...
