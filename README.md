@@ -4,7 +4,7 @@ Welcome to the Cloud Pentesting Tools Guide repository! This guide aims to provi
 
 # Introduction
 
-With the increasing adoption of cloud services and infrastructure, security professionals and penetration testers need to have access to tools that can effectively assess the security posture of cloud-based systems. This repository serves as a curated collection of such tools, categorized by their functionalities and compatible cloud platforms.
+My Swiss Army Knife for all things hacking starting from Recon to Forensics
 
 # Contents
 
@@ -30,7 +30,7 @@ Exploration and Situation Awareness: Tools that will help you discover your envi
 ## Recon and information gathering
 ![image](https://github.com/user-attachments/assets/d3c3520d-de0a-4932-b62a-48a3935cc748)
 
-- [KiteRunner](https://github.com/assetnote/kiterunner): Kiterunner is a tool that is capable of not only performing traditional content discovery at lightning-fast speeds but also brute-forcing routes/endpoints in modern applications.
+- [KiteRunner](https://github.com/assetnote/kiterunner): Kiterunner is a tool capable of performing traditional content discovery at lightning-fast speeds and brute-forcing routes/endpoints in modern applications.
 ---
 - [Katana](https://github.com/projectdiscovery/katana): Fast And fully configurable web crawling.
 ---
