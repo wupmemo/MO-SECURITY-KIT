@@ -1,7 +1,3 @@
-# Cloud Pentesting Tools Guide
-
-Welcome to the Cloud Pentesting Tools Guide repository! This guide aims to provide a comprehensive list of penetration testing tools that are specifically designed to work in cloud environments or targets deployed with a cloud environment.
-
 # Introduction
 
 My Swiss Army Knife for all things hacking starting from Recon to Forensics
