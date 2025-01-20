@@ -1,6 +1,6 @@
 # Introduction
 
-My Swiss Army Knife for all things hacking starting from Recon to Forensics
+My Swiss Army Knife for all things hacking starting from Recon to Forensics. This is an active repo where I test every tool listed and make sure it works fine and has proper documentation to show users how to run it. All the tools below have been vetted properly.
 
 # Contents
 
