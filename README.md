@@ -62,7 +62,7 @@ Exploration and Situation Awareness: Tools that will help you discover your envi
 ![image](https://github.com/wupmemo/Cloud-Security-Kit/assets/15247512/4223ebd1-9334-4d0f-abbe-44617407ff6f)
 
 ---
-- [sgCheckup](https://github.com/goldfiglabs/sgCheckup): sgCheckup - Check your Security Groups for Unexpected Open Ports & Generate nmap Output.
+- [sgCheckup](https://github.com/goldfiglabs/sgCheckup): sgCheckup - Check your AWS Security Groups for Unexpected Open Ports & Generate nmap Output.
 ---
 - [Ghost Buster](https://github.com/assetnote/ghostbuster): Ghostbuster iterates through all of your AWS Elastic IPs and Network Interface Public IPs and collects this data.
 ---
