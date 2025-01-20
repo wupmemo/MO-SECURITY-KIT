@@ -79,6 +79,7 @@ Exploration and Situation Awareness: Tools that will help you discover your envi
 - [Bucket Kicker](https://github.com/craighays/bucketkicker): Quickly enumerate AWS S3 buckets verify whether or not they exist and to look for loot.
 
 
+...
 
 ## Web Application Testing
 ![image](https://github.com/user-attachments/assets/d64143e8-6885-4905-ae96-d9038826103f)
