@@ -125,6 +125,9 @@ Exploration and Situation Awareness: Tools that will help you discover your envi
 - [Nuclei](https://github.com/projectdiscovery/nuclei): Fast and customisable vulnerability scanner based on simple YAML-based DSL.
 ---
 - [FUFF](https://github.com/ffuf/ffuf): An excellent tool for FUZZING URLs to detect if the site is XSS vulnerable.
+---
+- [SecLists](https://github.com/danielmiessler/SecLists): The one and only WordList for Fuzzing
+
 
 
 ...
@@ -132,6 +135,9 @@ Exploration and Situation Awareness: Tools that will help you discover your envi
 ## Exploitation && Attack
 ![image](https://github.com/user-attachments/assets/5f68a072-a427-46e2-a083-7e49ffc5d603)
 
+
+- [ALHACKING](https://github.com/4lbH4cker/ALHacking.git) The Albanian Hacking toolkit.
+---
 - [PACU](https://github.com/RhinoSecurityLabs/pacu) Pacu is an open-source AWS exploitation framework for Cloud Pentesting.
 ---
 - [RCLONE](https://rclone.org/): A legitimate tool used to access cloud storage for most cloud providers, but it is also a good tool for data exfiltration.
