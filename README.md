@@ -51,7 +51,8 @@ Exploration and Situation Awareness: Tools that will help you discover your envi
 - [Enum Wayback with MSF](https://github.com/mubix/stuff/blob/master/metasploit/enum_wayback.rb)
 ---
 - [WhatWaf](https://github.com/Ekultek/WhatWaf) WhatWaf is an advanced firewall detection tool that detects a firewall on a web application and attempts to detect a bypass (or two) for said firewall on the specified target.
-
+---
+- [Red Hawk](https://github.com/Tuhinshubhra/RED_HAWK) A popular open-source tool for information gathering, vulnerability scanning, and reconnaissance in cybersecurity
 ...
 
 ## Network Scanning and Website Enumeration
