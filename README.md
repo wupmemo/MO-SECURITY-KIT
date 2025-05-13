@@ -2,6 +2,8 @@
 
 My Swiss Army Knife for all things hacking starting from Recon to Forensics. This is an active repo where I test every tool listed and make sure it works fine and has proper documentation to show users how to run it. All the tools below have been vetted properly.
 
+![image](https://github.com/user-attachments/assets/a4eeabe3-b177-4145-b8bc-8e3cd0e286ea)
+
 # Contents
 
 - [Tool Categories](#tool-categories)
